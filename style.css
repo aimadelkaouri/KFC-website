@@ -1,0 +1,61 @@
+@import url(https://db.onlinewebfonts.com/c/9a835ecd5504d7ec84ad5fa704987c94?family=National+2+Bold);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'National2-Bold', sans-serif;
+}
+
+.navbar{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    font-weight: bold;
+}
+.navbar a{
+    color: #000;
+    text-decoration: none;
+    margin: 0 10px;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+.navbar img{
+    height: 75px;
+}
+
+.steacky-header{
+    height: 60px;
+    background: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hero{
+    height: 70vh;
+}
+
+.heroimg{
+    height: 100%;
+    width: 100%;
+}
+
+.btn{
+    color: #fff;
+    background-color: red;
+    border: solid red;
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
